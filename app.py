@@ -21,8 +21,8 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 if not os.path.exists(UPLOAD_FOLDER): os.makedirs(UPLOAD_FOLDER)
 
 # Adzuna API - Replace with your actual credentials
-ADZUNA_APP_ID = "49ccafa2"
-ADZUNA_APP_KEY = "5e0debab14598e8b361a86ce98b95be3"
+ADZUNA_APP_ID=your_id
+ADZUNA_APP_KEY=your_key
 
 CAREER_ROLES = {
     "data scientist": ["python", "machine learning", "statistics", "deep learning", "sql", "pytorch", "tensorflow", "nlp"],
